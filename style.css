@@ -22,7 +22,7 @@
   background-color: #A5B68D;
 }
 .header{
-	padding: 40px;
+	padding: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -69,6 +69,7 @@
 }
 .features{
 	background-color: #FCFAEE;
+	padding-bottom: 50px;
 }
 .features h1{
 	font-family: "Roboto", sans-serif;
@@ -93,6 +94,72 @@
 .skill-content h3{
 	color: #DA8359;
 	padding: 12px 0;
+}
+.contact_section{
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	padding: 50px;
+}
+.contact_section h1{
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	text-align: center;
+	color: #DA8359;
+	font-size: 40px;
+	padding: 50px;
+}
+.contact_section h3{
+	text-align: center;
+  padding-bottom: 30px;
+}
+.sub_header{
+	display: flex;
+	justify-content: center;
+}
+.sub_header p{
+	width: 50%;
+	text-align: center;
+}
+.button{
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+}
+.btn{
+	font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #da8359;
+  border: none;
+}
+.btn:hover{
+	background-color: #bd714c;
+}
+.btn a{
+	text-decoration: none;
+	color: #ffff;
+}
+.footer{
+	background-color: #ECDFCC;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	padding: 70px;
+}
+.social_accounts{
+	display: flex;
+  gap: 30pt;
+  justify-content: center;
+}
+.social_accounts li{
+	list-style: none;
+}
+.social_accounts li a{
+	text-decoration: none;
+	color: black;
+}
+.copyright p{
+	text-align: center;
+	padding: 20px;
 }
 @media(max-width: 575px){
 	.container{
