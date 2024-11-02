@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container-alignment{
+	display: flex;
+	justify-content: center;
+}
+.playwrite-gb-s-{
+  font-family: "Playwrite GB S", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.title-header{
+	font-weight: 700;
+	font-size: 48px;
+	text-align: center;
+}
+.title{
+  /*background-image: url('Portfolio-presentation.jpg');*/
+  background-color: #A5B68D;
+}
+.header{
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.roboto-regular{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header h2{
+	text-align: center;
+}
+.s_image img{
+	border-radius: 50%;
+}
+.heros{
+	
+}
+.heros-image img{
+	border-radius: 50%;
+	padding: 25px;
+}
+.heros-title h1{
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+	color: #DA8359;
+	text-align: center;
+	padding: 28px;
+}
+.heros-para{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 35px;
+}
+.heros-para p{
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	width: 50%;
+}
+.features{
+	background-color: #FCFAEE;
+}
+.features h1{
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	text-align: center;
+	color: #DA8359;
+	font-size: 40px;
+	padding: 50px;
+}
+.skills{
+	display: flex;
+	gap: 2%;
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 60px;
+}
+.skill-content{
+	width: 32%;
+}
+.skill-content p{
+	text-align: justify;
+}
+.skill-content h3{
+	color: #DA8359;
+	padding: 12px 0;
+}
+@media(max-width: 575px){
+	.container{
+		width: 90%;
+	}
+	.skills{
+		display: grid;
+		gap: 4%;
+		font-family: "Roboto", sans-serif;
+		margin-bottom: 60px;
+	}
+	.skill-content{
+		width: 100%;
+	}
+	.skill-content img{
+		object-fit: cover;
+	}
+	
+	.skills{
+		display: grid;
+		width: 100%;
+	}
+}
+@media(min-width: 576px){
+	.container{
+		width: 540px;
+	}
+	.skills{
+		display: grid;
+		gap: 4%;
+		font-family: "Roboto", sans-serif;
+		margin-bottom: 60px;
+	}
+	.skill-content{
+		width: 100%;
+	}
+	.skill-content img{
+		object-fit: cover;
+	}
+	
+	.skills{
+		display: grid;
+		width: 100%;
+	}
+}
+@media(min-width: 768px){
+	.container{
+		width: 720px;
+	}
+	.skill-content{
+		width: 32%;
+	}
+	.skills{
+		display: flex;
+	}
+}
+@media(min-width: 992px){
+	.container{
+		width: 960px;
+	}
+	.skill-content{
+		width: 32%;
+	}
+}
+@media(min-width: 1200px){
+	.container{
+		width: 1140px;
+	}
+	.skill-content{
+		width: 32%;
+	}
+}
+@media(min-width: 1400px){
+	.container{
+		width: 1320px;
+	}
+	.skill-content{
+		width: 32%;
+	}
+}
